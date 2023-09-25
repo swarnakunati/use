@@ -1,15 +1,17 @@
 package overriding;
- class myparentclass{
+
+
+class myparentclass{
 	 public void display() {
 		 System.out.println("parent class");
 	 }
- }
-  class mychildclass extends myparentclass{
+}
+ class mychildclass extends myparentclass{
 	  public void display() {
 		  System.out.println("child class");
 	  }
 	  
-  }
+ }
 public class methodoverriding {
 
 	public static void main(String[] args) {
@@ -20,3 +22,4 @@ public class methodoverriding {
 	}
 
 }
+
